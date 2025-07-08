@@ -1,6 +1,16 @@
 # Perfana
 
-**Perfana** provides automated, continuous insight into the performance of your applications across builds, environments, and deployments. It integrates metrics, traces, logs, and profiling data to detect regressions and understand behavior under load.
+**Perfana** is an open source performance observability platform designed to automate the validation, visualization, and reporting of performance test results. It empowers teams to continuously monitor performance trends and enforce performance goals during the software delivery lifecycle.
+
+Perfana integrates seamlessly with popular test tools (like Gatling, JMeter, and k6), CI/CD pipelines, and monitoring systems (such as Grafana and Dynatrace), making it easy to shift performance testing left and catch regressions early.
+
+## Key Features
+* Automated validation of performance metrics using configurable thresholds
+* Rich visualization and dashboards for test runs using Grafana
+* Time series comparison between test runs
+* Integration with CI pipelines: Use Perfana as quality gate
+* Automated configuration of Grafana dashboards base on profiles / metric discovery
+
 
 ---
 
@@ -8,10 +18,10 @@
 
 | Repository | Description |
 |------------|-------------|
-| [**perfana-fe**](https://github.com/perfana/perfana-fe) | The front-end UI of Perfana, used to visualize performance test runs and configure settings. |
+| [**perfana-fe**](https://github.com/perfana/perfana-fe) | The front-end of Perfana, used to manage test runs, visualize performance test results and configure settings. |
 | [**perfana-grafana**](https://github.com/perfana/perfana-grafana) | Handles Grafana dashboards integration and automated configuration. |
-| [**perfana-snapshot**](https://github.com/perfana/perfana-snapshot) | Creates Grafana dashboard snapshots. |
-| [**perfana-ds**](https://github.com/perfana/perfana-ds) | Data science services for statistical regression detection and performance trend evaluation. |
+| [**perfana-snapshot**](https://github.com/perfana/perfana-snapshot) | Creates Grafana dashboard snapshots to save performance test result dashboards beyond data retention. |
+| [**perfana-ds**](https://github.com/perfana/perfana-ds) | Services for statistical regression detection and automated service level objectives checks. |
 
 ## Other Repositories
 
