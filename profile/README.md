@@ -33,7 +33,7 @@ Perfana integrates seamlessly with popular test tools (like Gatling, JMeter, and
 | [**event-scheduler-maven-plugin**](https://github.com/perfana/event-scheduler-maven-plugin) | Maven plugin to integrate several test events  with Perfana. |
 | [**test-events-neoload**](https://github.com/perfana/test-events-neoload) | Test event to integrate Neoload SAAS with Perfana. |
 | [**test-events-command-runner**](https://github.com/perfana/test-events-command-runner) | Test event to run commandline commands in sync with Perfana. |
-| [**test-events-test-run-config-command**](https://github.com/perfana/test-events-test-run-config-command)) | Test event to capture test run configuration items to store in Perfana. |
+| [**test-events-test-run-config-command**](https://github.com/perfana/test-events-test-run-config-command) | Test event to capture test run configuration items to store in Perfana. |
 
 ---
 
