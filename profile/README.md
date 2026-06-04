@@ -6,28 +6,31 @@ Perfana integrates seamlessly with popular test tools (like Gatling, JMeter, and
 
 ## Key Features
 * Automated validation of performance metrics using configurable thresholds
+* Anomaly detection on performance test metrics from different sources
+* Apdex support for application performance scoring
 * Rich visualization and dashboards for test runs using Grafana
 * Time series comparison between test runs
+* Integrations with Tempo, Pyroscope, and Dynatrace
+* Automated report generation
+* MCP server for AI agents to query test runs, metrics, and analysis results
 * Integration with CI pipelines: Use Perfana as quality gate
 * Automated configuration of Grafana dashboards base on profiles / metric discovery
 
-
 ---
 
-## Core Repositories
+## Core Repository
 
 | Repository | Description |
 |------------|-------------|
-| [**perfana-fe**](https://github.com/perfana/perfana-fe) | The front-end of Perfana, used to manage test runs, visualize performance test results and configure settings. |
-| [**perfana-grafana**](https://github.com/perfana/perfana-grafana) | Handles Grafana dashboards integration and automated configuration. |
-| [**perfana-snapshot**](https://github.com/perfana/perfana-snapshot) | Creates Grafana dashboard snapshots to save performance test result dashboards beyond data retention. |
-| [**perfana-ds**](https://github.com/perfana/perfana-ds) | Services for statistical regression detection and automated service level objectives checks. |
+| [**perfana**](https://github.com/perfana/perfana) | The Perfana platform monorepo — NestJS API, Next.js web app, BullMQ workers (ADAPT regression detection & SLO checks), Grafana sync, MCP server, and shared TypeORM entities. **This is the home of active development.** |
 
-## Other Repositories
+## Integrations & Tooling
 
 | Repository | Description |
 |------------|-------------|
+| [**perfana-cli**](https://github.com/perfana/perfana-cli) | Command line interface to Perfana. |
 | [**helm-charts**](https://github.com/perfana/helm-charts) | Perfana Helm charts. |
+| [**perfana-jmeter-timescaledb**](https://github.com/perfana/perfana-jmeter-timescaledb) | JMeter backend listener that writes test results directly to TimescaleDB for real-time performance analysis. |
 | [**events-jmeter-maven-plugin**](https://github.com/perfana/events-jmeter-maven-plugin) | Maven plugin to integrate JMeter script with Perfana. |
 | [**events-gatling-maven-plugin**](https://github.com/perfana/events-gatling-maven-plugin) | Maven plugin to integrate Gatling script with Perfana. |
 | [**event-scheduler-maven-plugin**](https://github.com/perfana/event-scheduler-maven-plugin) | Maven plugin to integrate several test events  with Perfana. |
