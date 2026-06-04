@@ -23,7 +23,9 @@ Perfana integrates seamlessly with popular test tools (like Gatling, JMeter, and
 
 | Repository | Description |
 |------------|-------------|
+| [**perfana-cli**](https://github.com/perfana/perfana-cli) | Command line interface to Perfana. |
 | [**helm-charts**](https://github.com/perfana/helm-charts) | Perfana Helm charts. |
+| [**perfana-jmeter-timescaledb**](https://github.com/perfana/perfana-jmeter-timescaledb) | JMeter backend listener that writes test results directly to TimescaleDB for real-time performance analysis. |
 | [**events-jmeter-maven-plugin**](https://github.com/perfana/events-jmeter-maven-plugin) | Maven plugin to integrate JMeter script with Perfana. |
 | [**events-gatling-maven-plugin**](https://github.com/perfana/events-gatling-maven-plugin) | Maven plugin to integrate Gatling script with Perfana. |
 | [**event-scheduler-maven-plugin**](https://github.com/perfana/event-scheduler-maven-plugin) | Maven plugin to integrate several test events  with Perfana. |
