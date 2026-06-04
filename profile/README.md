@@ -6,8 +6,12 @@ Perfana integrates seamlessly with popular test tools (like Gatling, JMeter, and
 
 ## Key Features
 * Automated validation of performance metrics using configurable thresholds
+* Anomaly detection on performance test metrics from different sources
+* Apdex support for application performance scoring
 * Rich visualization and dashboards for test runs using Grafana
 * Time series comparison between test runs
+* Integrations with Tempo, Pyroscope, and Dynatrace
+* Automated report generation
 * Integration with CI pipelines: Use Perfana as quality gate
 * Automated configuration of Grafana dashboards base on profiles / metric discovery
 
