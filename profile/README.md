@@ -19,10 +19,6 @@ Perfana integrates seamlessly with popular test tools (like Gatling, JMeter, and
 |------------|-------------|
 | [**perfana**](https://github.com/perfana/perfana) | The Perfana platform monorepo — NestJS API, Next.js web app, BullMQ workers (ADAPT regression detection & SLO checks), Grafana sync, MCP server, and shared TypeORM entities. **This is the home of active development.** |
 
-> ℹ️ Perfana has been consolidated into a single monorepo. The previously
-> separate `perfana-fe`, `perfana-grafana`, `perfana-snapshot`, and `perfana-ds`
-> repositories are superseded by the [**perfana**](https://github.com/perfana/perfana) monorepo and kept for reference only.
-
 ## Integrations & Tooling
 
 | Repository | Description |
@@ -34,17 +30,6 @@ Perfana integrates seamlessly with popular test tools (like Gatling, JMeter, and
 | [**test-events-neoload**](https://github.com/perfana/test-events-neoload) | Test event to integrate Neoload SAAS with Perfana. |
 | [**test-events-command-runner**](https://github.com/perfana/test-events-command-runner) | Test event to run commandline commands in sync with Perfana. |
 | [**test-events-test-run-config-command**](https://github.com/perfana/test-events-test-run-config-command) | Test event to capture test run configuration items to store in Perfana. |
-
-## Legacy / Superseded Repositories
-
-These repositories have been consolidated into the [**perfana**](https://github.com/perfana/perfana) monorepo and are no longer the primary development target.
-
-| Repository | Superseded by |
-|------------|---------------|
-| [**perfana-fe**](https://github.com/perfana/perfana-fe) | `apps/web` + `apps/api` in the monorepo |
-| [**perfana-grafana**](https://github.com/perfana/perfana-grafana) | `apps/grafana-sync` in the monorepo |
-| [**perfana-snapshot**](https://github.com/perfana/perfana-snapshot) | Snapshot handling in the monorepo |
-| [**perfana-ds**](https://github.com/perfana/perfana-ds) | `apps/worker` (ADAPT regression detection & SLO checks) in the monorepo |
 
 ---
 
