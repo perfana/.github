@@ -12,6 +12,7 @@ Perfana integrates seamlessly with popular test tools (like Gatling, JMeter, and
 * Time series comparison between test runs
 * Integrations with Tempo, Pyroscope, and Dynatrace
 * Automated report generation
+* MCP server for AI agents to query test runs, metrics, and analysis results
 * Integration with CI pipelines: Use Perfana as quality gate
 * Automated configuration of Grafana dashboards base on profiles / metric discovery
 
